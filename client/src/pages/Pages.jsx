@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { fmtDate, useData } from '../api.js';
-import { DataTable, Loading, PageHeader, Section, ViewLink } from '../components/ui.jsx';
+import { Counter, DataTable, Loading, MapSection, PageHeader, Section, ViewLink } from '../components/ui.jsx';
 
 const ABOUT = [{ label: 'About', to: '/about' }];
 
@@ -10,19 +10,184 @@ function usePage(key) {
   return { ...state, page: state.data?.[key] };
 }
 
+function Head({ kicker, title, sub, light }) {
+  return (
+    <div className={`section-head ${light ? 'light' : ''}`}>
+      {kicker && <span className="eyebrow">{kicker}</span>}
+      <h2>{title}</h2>
+      {sub && <p>{sub}</p>}
+    </div>
+  );
+}
+
 export function About() {
   const s = usePage('about');
+  const { data: site } = useData('site');
+  const { data: leaders } = useData('leadership');
   if (!s.page) return <Loading state={s} />;
   const p = s.page;
+  const v = s.data.vision;
   return (
     <>
       <PageHeader title={p.title} image={p.image} />
-      <Section>
-        <div className="two-col">
-          <div>{p.paras.map((t) => <p key={t}>{t}</p>)}</div>
-          <img className="rounded" src="/images/campus-1.jpg" alt="University campus" />
+
+      {/* Intro */}
+      <section className="section">
+        <div className="container two-col welcome">
+          <div className="collage">
+            <img className="c1" src="/images/campus-1.jpg" alt="University campus" loading="lazy" />
+            <img className="c2" src="/images/students-1.jpg" alt="Students on campus" loading="lazy" />
+            <div className="exp"><strong>25+</strong><span>Departments &amp; Centres</span></div>
+          </div>
+          <div>
+            <span className="eyebrow">Who We Are</span>
+            <h2>{p.heading}</h2>
+            <p className="lead">{p.paras[0]}</p>
+            {p.paras.slice(1).map((t) => <p key={t}>{t}</p>)}
+            <ul className="ticks two">{p.highlights?.map((h) => <li key={h}>{h}</li>)}</ul>
+            <Link className="btn" to="/programs">Explore Programmes</Link>{' '}
+            <Link className="btn btn-gold" to="/admission">Admissions</Link>
+          </div>
         </div>
-      </Section>
+      </section>
+
+      {/* Stats */}
+      {site?.stats && (
+        <section className="stats">
+          <div className="container stats-grid">
+            {site.stats.map((st) => <Counter key={st.label} {...st} />)}
+          </div>
+        </section>
+      )}
+
+      {/* Vision & Mission */}
+      {v && (
+        <section className="section alt">
+          <div className="container">
+            <Head kicker="Our Purpose" title="Vision & Mission" />
+            <div className="vm-grid">
+              <div className="vm-card vision">
+                <span className="vm-icon" aria-hidden="true">👁️</span>
+                <h3>Our Vision</h3>
+                <p>{v.vision}</p>
+              </div>
+              <div className="vm-card">
+                <span className="vm-icon" aria-hidden="true">🎯</span>
+                <h3>Our Mission</h3>
+                <ul className="ticks">{v.mission.map((m) => <li key={m}>{m}</li>)}</ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Core values */}
+      {p.values && (
+        <section className="section dark">
+          <div className="container">
+            <Head light kicker="What We Stand For" title="Our Core Values" />
+            <div className="why">
+              {p.values.map((val) => (
+                <div className="why-item" key={val.t}><span>{val.icon}</span><h3>{val.t}</h3><p>{val.d}</p></div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Schools */}
+      {p.schools && (
+        <section className="section">
+          <div className="container">
+            <Head kicker="Academics" title="Our Schools & Centres" sub="Health-science disciplines under one academic roof" />
+            <div className="cards three">
+              {p.schools.map((sc) => (
+                <Link to={sc.to} className="card school-card" key={sc.name}>
+                  <img src={sc.image} alt="" loading="lazy" />
+                  <div className="card-body">
+                    <h3>{sc.name}</h3>
+                    <p>{sc.desc}</p>
+                    <span className="more">Learn more →</span>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Approach */}
+      {p.approach && (
+        <section className="section alt">
+          <div className="container">
+            <Head kicker="How We Teach" title="Our Learning Approach" />
+            <ol className="timeline approach">
+              {p.approach.map((a, i) => (
+                <li key={a.t}><span>{i + 1}</span><h4>{a.t}</h4><p>{a.d}</p></li>
+              ))}
+            </ol>
+          </div>
+        </section>
+      )}
+
+      {/* Leadership */}
+      {leaders?.length > 0 && (
+        <section className="section">
+          <div className="container">
+            <Head kicker="Leadership" title="Guided by Experience" />
+            <div className="cards three">
+              {leaders.map((l) => (
+                <article className="leader" key={l.role}>
+                  <img src={l.image} alt={l.name} loading="lazy" />
+                  <div>
+                    <h3>{l.name}</h3>
+                    <span className="badge">{l.role}</span>
+                    <p>“{l.message.slice(0, 130)}…”</p>
+                  </div>
+                </article>
+              ))}
+            </div>
+            <p className="center">
+              <Link className="btn" to="/about/leadership">Leadership Messages</Link>{' '}
+              <Link className="btn btn-gold" to="/faculty">Meet Our Faculty</Link>
+            </p>
+          </div>
+        </section>
+      )}
+
+      {/* Facilities */}
+      {p.facilities && (
+        <section className="section alt">
+          <div className="container">
+            <Head kicker="Campus" title="Infrastructure & Facilities" />
+            <div className="facilities">
+              {p.facilities.map((f) => (
+                <Link to="/students" key={f.name} className="facility" style={{ backgroundImage: `url(${f.image})` }}><span>{f.name}</span></Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Approvals */}
+      <section className="approvals">
+        <div className="container">
+          <span>Recognised &amp; Approved By</span>
+          {['UGC', 'NMC', 'DCI', 'INC', 'NAAC'].map((a) => <b key={a}>{a}</b>)}
+          <Link to="/about/affiliations">View details →</Link>
+        </div>
+      </section>
+
+      <MapSection site={site} alt />
+
+      <section className="banner">
+        <div className="container">
+          <h2>Begin Your Journey With RMRU</h2>
+          <p>Join a community of learners, healers and researchers committed to transforming healthcare.</p>
+          <Link className="btn btn-gold" to="/admission">Apply Now</Link>{' '}
+          <Link className="btn btn-outline" to="/contact">Contact Us</Link>
+        </div>
+      </section>
     </>
   );
 }

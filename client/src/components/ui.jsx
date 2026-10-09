@@ -100,3 +100,41 @@ export function Loading({ state }) {
   if (state.error) return <div className="container section">Unable to load content. Please try again later.</div>;
   return <div className="loading">Loading…</div>;
 }
+
+export function MapSection({ site, alt }) {
+  if (!site?.map) return null;
+  const { lat, lng, link } = site.map;
+  const embed = `https://maps.google.com/maps?q=${lat},${lng}&z=16&output=embed`;
+  const directions = `https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}`;
+  return (
+    <section className={`section map-section ${alt ? 'alt' : ''}`} id="location">
+      <div className="container">
+        <div className="section-head">
+          <span className="eyebrow">Location</span>
+          <h2>Find Us on the Map</h2>
+          <p>Visit our campus office in Sector 25, Chandigarh</p>
+        </div>
+        <div className="map-wrap">
+          <div className="map-card">
+            <h3>{site.name}</h3>
+            <p className="map-line"><span aria-hidden="true">📍</span><span>{site.address}</span></p>
+            <p className="map-line"><span aria-hidden="true">📞</span><span>{site.phones.join(' / ')}</span></p>
+            <p className="map-line"><span aria-hidden="true">✉️</span><a href={`mailto:${site.email}`}>{site.email}</a></p>
+            <div className="map-actions">
+              <a className="btn btn-gold" href={directions} target="_blank" rel="noreferrer">Get Directions</a>
+              <a className="btn" href={link} target="_blank" rel="noreferrer">Open in Google Maps</a>
+            </div>
+          </div>
+          <iframe
+            className="map-frame"
+            title={`Map showing ${site.name}`}
+            src={embed}
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            allowFullScreen
+          />
+        </div>
+      </div>
+    </section>
+  );
+}

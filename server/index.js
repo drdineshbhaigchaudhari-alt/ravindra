@@ -14,7 +14,7 @@ const dataDir = path.join(__dirname, 'data');
 const distDir = path.join(__dirname, '..', 'client', 'dist');
 const PORT = process.env.PORT || 5000;
 
-const RESOURCES = ['site', 'notices', 'departments', 'programs', 'events', 'schedules', 'gallery', 'leadership', 'committees', 'faqs', 'vacancies', 'pages'];
+const RESOURCES = ['site', 'notices', 'departments', 'programs', 'events', 'schedules', 'gallery', 'leadership', 'committees', 'faqs', 'vacancies', 'pages', 'faculty'];
 
 const readJson = (name) => JSON.parse(fs.readFileSync(path.join(dataDir, `${name}.json`), 'utf8'));
 

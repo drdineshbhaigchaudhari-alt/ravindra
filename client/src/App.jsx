@@ -9,6 +9,7 @@ import {
 } from './pages/Pages.jsx';
 import { Departments, DepartmentDetail } from './pages/Departments.jsx';
 import Contact from './pages/Contact.jsx';
+import Faculty from './pages/Faculty.jsx';
 
 function NotFound() {
   return (
@@ -38,6 +39,7 @@ export default function App() {
         <Route path="teaching-schedule" element={<TeachingSchedule />} />
         <Route path="departments" element={<Departments />} />
         <Route path="departments/:slug" element={<DepartmentDetail />} />
+        <Route path="faculty" element={<Faculty />} />
         <Route path="students" element={<Students />} />
         <Route path="research" element={<Research />} />
         <Route path="events" element={<Events />} />

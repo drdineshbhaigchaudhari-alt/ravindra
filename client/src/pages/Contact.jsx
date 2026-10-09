@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { postEnquiry, useData } from '../api.js';
-import { Loading, PageHeader, Section } from '../components/ui.jsx';
+import { Loading, MapSection, PageHeader, Section } from '../components/ui.jsx';
 
 export default function Contact({ subject = '' }) {
   const state = useData('site');
@@ -47,6 +47,7 @@ export default function Contact({ subject = '' }) {
           </form>
         </div>
       </Section>
+      <MapSection site={site} alt />
     </>
   );
 }

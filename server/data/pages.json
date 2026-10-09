@@ -1,9 +1,43 @@
 {
-  "about": { "title": "About Us", "image": "/images/hero-campus.jpg", "paras": [
+  "about": { "title": "About Us", "image": "/images/hero-campus.jpg",
+    "heading": "A University Built on Learning, Healing & Discovery",
+    "paras": [
     "Ravindra Medical Research University (RMRU) is a centre of excellence dedicated to medical education, biomedical research and community service. The university brings together a broad spectrum of health-science programmes under one academic roof, fostering collaboration between disciplines.",
     "Our campus offers modern lecture theatres, research laboratories, a simulation skills centre, a digital library and residential facilities, creating an environment where students learn, discover and grow.",
     "Guided by values of integrity, compassion and scholarship, RMRU aims to produce healthcare professionals and scientists who are competent, ethical and socially responsive."
-  ] },
+  ],
+    "highlights": ["Competency-based curriculum", "Experienced, mentoring faculty", "Simulation & skills training", "Central research laboratory", "Digital library & e-resources", "Safe residential campus"],
+    "values": [
+      { "icon": "🏆", "t": "Excellence", "d": "We hold ourselves to the highest standards in teaching, clinical training and research." },
+      { "icon": "⚖️", "t": "Integrity", "d": "Honesty, transparency and accountability guide every academic and administrative decision." },
+      { "icon": "❤️", "t": "Compassion", "d": "We nurture caregivers who place patient dignity and wellbeing at the heart of practice." },
+      { "icon": "💡", "t": "Innovation", "d": "We encourage curiosity, critical thinking and research that leads to better health outcomes." },
+      { "icon": "🤝", "t": "Inclusivity", "d": "A diverse, respectful and ragging-free campus where every learner can thrive." },
+      { "icon": "🌱", "t": "Service", "d": "Community outreach and health awareness are integral to our education and research." }
+    ],
+    "schools": [
+      { "name": "School of Medical Sciences", "image": "/images/lecture-1.jpg", "desc": "Undergraduate and postgraduate medical education with early clinical exposure.", "to": "/programs" },
+      { "name": "School of Dental Sciences", "image": "/images/skills-lab.jpg", "desc": "Hands-on dental education supported by modern pre-clinical and clinical labs.", "to": "/programs" },
+      { "name": "School of Nursing", "image": "/images/nursing-1.jpg", "desc": "Professional nursing programmes focused on skilled, compassionate patient care.", "to": "/programs" },
+      { "name": "School of Pharmaceutical Sciences", "image": "/images/lab-2.jpg", "desc": "Pharmaceutics, pharmacology, pharmaceutical chemistry, pharmacognosy and pharmacy practice.", "to": "/faculty" },
+      { "name": "School of Allied Health Sciences", "image": "/images/lab-3.jpg", "desc": "Programmes in diagnostics, technology and rehabilitation that support modern healthcare.", "to": "/programs" },
+      { "name": "Centre for Biomedical Research", "image": "/images/research.jpg", "desc": "Interdisciplinary research with shared laboratories and an Institutional Ethics Committee.", "to": "/research" }
+    ],
+    "approach": [
+      { "t": "Learn", "d": "Strong foundations through interactive lectures, tutorials and a digital library." },
+      { "t": "Practise", "d": "Simulation labs and supervised clinical training build real-world confidence." },
+      { "t": "Research", "d": "Students and faculty pursue projects with seed grants and expert mentoring." },
+      { "t": "Serve", "d": "Health camps and outreach programmes connect learning with community needs." }
+    ],
+    "facilities": [
+      { "name": "Digital Library", "image": "/images/library-1.jpg" },
+      { "name": "Simulation Lab", "image": "/images/skills-lab.jpg" },
+      { "name": "Lecture Theatres", "image": "/images/lecture-2.jpg" },
+      { "name": "Research Labs", "image": "/images/lab-1.jpg" },
+      { "name": "Campus & Hostels", "image": "/images/campus-2.jpg" },
+      { "name": "Sports & Recreation", "image": "/images/students-4.jpg" }
+    ]
+  },
   "vision": { "title": "Vision & Mission", "image": "/images/campus-1.jpg", "vision": "To be a globally respected university for medical education and research, transforming health through knowledge, innovation and compassion.", "mission": [
     "Deliver high-quality, competency-based education in health sciences.",
     "Promote translational and interdisciplinary biomedical research.",

@@ -3,7 +3,7 @@
   "short": "RMRU",
   "tagline": "Advancing Medical Education, Research & Innovation",
   "domain": "ravindrameduni.com",
-  "address": "Ravindra Medical Research University, Sector 25, Chandigarh — 160014, India",
+  "address": "SCO/112, Near SBI Bank Branch, Sector 25, Chandigarh — 160014, India",
   "phones": ["+91 172 255 0101", "+91 172 255 0102"],
   "tollFree": "1800-111-0172",
   "email": "info@ravindrameduni.com",
@@ -21,5 +21,6 @@
     { "value": 400, "suffix": "+", "label": "Faculty Members" },
     { "value": 60, "suffix": "+", "label": "Research Projects" }
   ],
-  "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#", "linkedin": "#" }
+  "social": { "facebook": "#", "instagram": "#", "youtube": "#", "linkedin": "#" },
+  "map": { "lat": 30.762057, "lng": 76.764314, "link": "https://maps.app.goo.gl/e98QbwgKsFxF8r4u7" }
 }

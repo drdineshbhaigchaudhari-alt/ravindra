@@ -3,6 +3,7 @@ import { Link, NavLink, Outlet, useLocation } from 'react-router-dom';
 import { useData } from '../api.js';
 import { NAV } from '../nav.js';
 import Logo from './Logo.jsx';
+import Social from './Social.jsx';
 
 function TopBar({ site }) {
   return (
@@ -32,9 +33,27 @@ function TopBar({ site }) {
 
 function Header({ site }) {
   const [open, setOpen] = useState(false);
-  const [sub, setSub] = useState(null);
+  const [activeSub, setActiveSub] = useState(null);
   const { pathname } = useLocation();
-  useEffect(() => { setOpen(false); setSub(null); }, [pathname]);
+
+  useEffect(() => {
+    setOpen(false);
+    setActiveSub(null);
+  }, [pathname]);
+
+  useEffect(() => {
+    const handleOutsideClick = (e) => {
+      if (!e.target.closest('.mainnav')) {
+        setActiveSub(null);
+      }
+    };
+    document.addEventListener('click', handleOutsideClick);
+    return () => document.removeEventListener('click', handleOutsideClick);
+  }, []);
+
+  const toggleSub = (label) => {
+    setActiveSub((prev) => (prev === label ? null : label));
+  };
 
   return (
     <header className="header">
@@ -46,31 +65,76 @@ function Header({ site }) {
             <small>{site.tagline}</small>
           </span>
         </Link>
-        <button className="menu-btn" aria-expanded={open} aria-label="Toggle menu" onClick={() => setOpen(!open)}>
+        <button
+          className="menu-btn"
+          aria-expanded={open}
+          aria-label="Toggle menu"
+          onClick={() => setOpen(!open)}
+        >
           {open ? '✕' : '☰'}
         </button>
       </div>
       <nav className={`mainnav ${open ? 'open' : ''}`} aria-label="Main">
-        <ul className="container">
-          {NAV.map((item) => (
-            <li key={item.label} className={item.children ? 'has-sub' : ''}>
-              {item.children ? (
-                <>
-                  <NavLink to={item.to} onClick={(e) => { if (window.innerWidth < 960) { e.preventDefault(); setSub(sub === item.label ? null : item.label); } }}>
-                    {item.label} ▾
+        <div className="container">
+          <ul>
+            {NAV.map((item) => (
+              <li
+                key={item.label}
+                className={`nav-item ${item.children ? 'has-sub' : ''} ${activeSub === item.label ? 'open' : ''}`}
+                onMouseEnter={() => {
+                  if (window.innerWidth >= 960 && item.children) setActiveSub(item.label);
+                }}
+                onMouseLeave={() => {
+                  if (window.innerWidth >= 960) setActiveSub(null);
+                }}
+              >
+                {item.children ? (
+                  <>
+                    <button
+                      type="button"
+                      className="nav-link nav-btn"
+                      aria-expanded={activeSub === item.label}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        toggleSub(item.label);
+                      }}
+                    >
+                      {item.label} <span className="caret" aria-hidden="true">▾</span>
+                    </button>
+                    <ul className={`sub ${activeSub === item.label ? 'show' : ''}`}>
+                      {item.children.map((c) => (
+                        <li key={c.to}>
+                          <NavLink
+                            to={c.to}
+                            end
+                            onClick={() => {
+                              setActiveSub(null);
+                              setOpen(false);
+                            }}
+                          >
+                            {c.label}
+                          </NavLink>
+                        </li>
+                      ))}
+                    </ul>
+                  </>
+                ) : (
+                  <NavLink
+                    to={item.to}
+                    end={item.to === '/'}
+                    className="nav-link"
+                    onClick={() => {
+                      setActiveSub(null);
+                      setOpen(false);
+                    }}
+                  >
+                    {item.label}
                   </NavLink>
-                  <ul className={`sub ${sub === item.label ? 'show' : ''}`}>
-                    {item.children.map((c) => (
-                      <li key={c.to}><NavLink to={c.to} end>{c.label}</NavLink></li>
-                    ))}
-                  </ul>
-                </>
-              ) : (
-                <NavLink to={item.to} end={item.to === '/'}>{item.label}</NavLink>
-              )}
-            </li>
-          ))}
-        </ul>
+                )}
+              </li>
+            ))}
+          </ul>
+        </div>
       </nav>
     </header>
   );
@@ -83,16 +147,13 @@ function Footer({ site }) {
         <div>
           <div className="footer-brand"><Logo size={48} /><strong>{site.name}</strong></div>
           <p>A university dedicated to excellence in medical education, biomedical research and community engagement.</p>
-          <div className="social">
-            {Object.keys(site.social).map((s) => (
-              <a key={s} href={site.social[s]} aria-label={s}>{s[0].toUpperCase()}</a>
-            ))}
-          </div>
+          <Social links={site.social} />
         </div>
         <div>
           <h4>University</h4>
           <Link to="/about">About Us</Link>
           <Link to="/about/leadership">Leadership</Link>
+          <Link to="/faculty">Faculty</Link>
           <Link to="/about/committees">Committees</Link>
           <Link to="/research">Research</Link>
           <Link to="/careers">Careers</Link>

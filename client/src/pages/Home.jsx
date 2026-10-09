@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { fmtDate, useData } from '../api.js';
-import { Counter, Seo } from '../components/ui.jsx';
+import { Counter, MapSection, Seo } from '../components/ui.jsx';
 
 const SLIDES = [
-  { img: '/images/hero-campus.jpg', kicker: 'Admissions 2026–27 Open', title: 'Where Medical Science Meets Compassion', text: 'A modern university campus built for learning, discovery and service to society.', cta: ['/admission', 'Apply Now'], cta2: ['/programs', 'Explore Programmes'] },
+  { img: '/images/hero-slider-1.png', kicker: 'Admissions 2026–27 Open', title: 'Where Medical Science Meets Compassion', text: 'A modern university campus built for learning, discovery and service to society.', cta: ['/admission', 'Apply Now'], cta2: ['/programs', 'Explore Programmes'] },
   { img: '/images/hero-students.jpg', kicker: 'Learn From The Best', title: 'Competency-Based Medical Education', text: 'Medicine, dentistry, nursing and allied health taught by experienced, mentoring faculty.', cta: ['/programs', 'Our Programmes'], cta2: ['/departments', 'Departments'] },
   { img: '/images/hero-graduation.jpg', kicker: 'Research · Innovation · Ethics', title: 'Shaping Tomorrow’s Healthcare Leaders', text: 'Join a community committed to excellence, integrity and discovery.', cta: ['/about', 'About RMRU'], cta2: ['/research', 'Research'] }
 ];
@@ -319,6 +319,8 @@ export default function Home() {
           {['UGC', 'NMC', 'DCI', 'INC', 'NAAC'].map((a) => <b key={a}>{a}</b>)}
         </div>
       </section>
+
+      <MapSection site={site} alt />
 
       {/* CTA */}
       <section className="banner">

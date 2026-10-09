@@ -1,0 +1,50 @@
+{
+  "schools": [
+    {
+      "slug": "pharmaceutical-sciences",
+      "name": "School of Pharmaceutical Sciences",
+      "intro": "The School of Pharmaceutical Sciences is home to an experienced team of professors and researchers across pharmaceutics, pharmacology, pharmaceutical chemistry, pharmacognosy, quality assurance and pharmacy practice, committed to excellence in teaching, research and patient-centred care.",
+      "members": [
+        { "name": "Dr. Vimal Arora", "designation": "Professor & Associate Director", "specialization": "Quality Assurance", "joined": "2019-05-28", "experience": 19.5, "image": "/images/faculty/Dr. Vimal Arora.png" },
+        { "name": "Dr. Sunda Poonia", "designation": "Professor", "specialization": "Pharmaceutics", "joined": "2023-08-14", "experience": 14.5, "image": "/images/faculty/Dr. Sunda Poonia.png" },
+        { "name": "Dr. Kumar Boyina", "designation": "Professor", "specialization": "Pharmacology", "joined": "2024-05-28", "experience": 14.5, "image": "/images/faculty/Dr. Kumar Boyina.png" },
+        { "name": "Dr. Nishant Thakur", "designation": "Professor", "specialization": "Pharmaceutics", "joined": "2014-12-12", "experience": 12.5, "image": "/images/faculty/Dr. Nishant Thakur.png" },
+        { "name": "Dr. Abhishek Sharma", "designation": "Associate Professor", "specialization": "Pharmaceutics", "joined": "2021-10-14", "experience": 11.5 },
+        { "name": "Dr. Atul Kabra", "designation": "Associate Professor", "specialization": "Pharmacology", "joined": "2020-08-28", "experience": 12.5 },
+        { "name": "Dr. Bhupinder Singh", "designation": "Associate Professor", "specialization": "Pharmaceutics", "joined": "2017-07-05", "experience": 9.5 },
+        { "name": "Dr. Chandam Kumar", "designation": "Associate Professor", "specialization": "Pharmaceutics", "joined": "2017-08-02", "experience": 11.5 },
+        { "name": "Dr. Daljeet Masih", "designation": "Associate Professor", "specialization": "Pharmaceutics", "joined": "2024-08-12", "experience": 13.5 },
+        { "name": "Dr. Deepika Bhatia", "designation": "Associate Professor", "specialization": "Pharmacology", "joined": "2016-06-27", "experience": 10.5 },
+        { "name": "Dr. Hitesh Kumar Dewangan", "designation": "Associate Professor", "specialization": "Pharmaceutics", "joined": "2021-09-28", "experience": 11.5 },
+        { "name": "Dr. Manisha Bhatti", "designation": "Associate Professor", "specialization": "Pharmaceutical Chemistry", "joined": "2015-07-01", "experience": 12.5 },
+        { "name": "Dr. Navin Tailor", "designation": "Associate Professor", "specialization": "Pharmaceutical Chemistry", "joined": "2023-07-11", "experience": 16.5 },
+        { "name": "Dr. Neeraj Bainsal", "designation": "Associate Professor", "specialization": "Pharmacognosy", "joined": "2016-09-07", "experience": 11.5 },
+        { "name": "Dr. Mittal kaur", "designation": "Associate Professor", "specialization": "Pharmacology", "joined": "2014-06-25", "experience": 15.5 },
+        { "name": "Dr. Ruchika Garg", "designation": "Associate Professor", "specialization": "Pharmaceutical Chemistry", "joined": "2023-12-28", "experience": 12.5 },
+        { "name": "Dr. Shehensha Wrae", "designation": "Associate Professor", "specialization": "Pharmaceutical Chemistry", "joined": "2024-08-05", "experience": 13.5 },
+        { "name": "Dr. Aditya Goyal", "designation": "Assistant Professor", "specialization": "Pharmaceutics", "joined": "2022-06-07", "experience": 10.5 },
+        { "name": "Dr. Muraleedharan", "designation": "Assistant Professor", "specialization": "Pharm.D.", "joined": "2023-02-27", "experience": 3.5 },
+        { "name": "Mr. Ankit Deera", "designation": "Assistant Professor", "specialization": "Pharmaceutical Chemistry", "joined": "2022-08-26", "experience": 3.5 },
+        { "name": "Dr. Arjun kola", "designation": "Assistant Professor", "specialization": "Pharmacy Practice", "joined": "2023-09-04", "experience": 2.5 },
+        { "name": "Dr. Jatinder Singh", "designation": "Assistant Professor", "specialization": "Pharmaceutics", "joined": null, "experience": 10.5 },
+        { "name": "Dr. Diksha Kumar", "designation": "Assistant Professor", "specialization": "Pharm.D.", "joined": "2023-07-29", "experience": 3.5 },
+        { "name": "Dr. Gaurav Kukra", "designation": "Assistant Professor", "specialization": "Pharm.D.", "joined": "2019-08-01", "experience": 8.5 },
+        { "name": "Mr. Guru Sewak deepa", "designation": "Assistant Professor", "specialization": "Pharmacology", "joined": "2023-11-27", "experience": 11.5 },
+        { "name": "Dr. Lovedeep Kumara", "designation": "Assistant Professor", "specialization": "Pharmacology", "joined": "2022-07-04", "experience": 7.5 },
+        { "name": "Dr. Mallesh Musare", "designation": "Assistant Professor", "specialization": "Pharm.D.", "joined": "2023-12-27", "experience": 9.5 },
+        { "name": "Ms. Neha Shamra", "designation": "Assistant Professor", "specialization": "Pharmaceutics", "joined": "2022-08-24", "experience": 6.5 },
+        { "name": "Ms. Parminder Kumari", "designation": "Assistant Professor", "specialization": "Pharmaceutical Chemistry", "joined": "2017-07-05", "experience": 7.5 },
+        { "name": "Dr. Rajwant Singh", "designation": "Assistant Professor", "specialization": "Pharmaceutical Chemistry", "joined": "2017-07-14", "experience": 12.5 },
+        { "name": "Ms. Ritika Purira", "designation": "Assistant Professor", "specialization": "Pharmaceutics", "joined": "2016-06-27", "experience": 10.5 },
+        { "name": "Ms. Ritika Sennd", "designation": "Assistant Professor", "specialization": "Pharmacology", "joined": "2016-09-07", "experience": 12.5 },
+        { "name": "Ms. Shefali Khan", "designation": "Assistant Professor", "specialization": "Pharmaceutical Chemistry", "joined": "2022-08-16", "experience": 5.5 },
+        { "name": "Ms. Tejinder Kaur", "designation": "Assistant Professor", "specialization": "Pharmaceutical Chemistry", "joined": "2018-10-11", "experience": 8.5 },
+        { "name": "Dr. Vinay Kumar", "designation": "Assistant Professor", "specialization": "Pharmaceutics", "joined": "2024-02-28", "experience": 5.5 },
+        { "name": "Dr. Yash Pal Singh", "designation": "Assistant Professor", "specialization": "Pharmaceutical Chemistry", "joined": "2023-08-03", "experience": 8.5 },
+        { "name": "Mr. Rupak Sarkar", "designation": "Assistant Professor", "specialization": "Pharmacognosy", "joined": "2024-08-10", "experience": 2.5 },
+        { "name": "Dr. Sunil Kumar", "designation": "Assistant Professor", "specialization": "Pharmaceutical Chemistry", "joined": "2024-12-18", "experience": 7.5 },
+        { "name": "Dr. Ritusparna", "designation": "Assistant Professor", "specialization": "Pharmacology", "joined": "2025-01-31", "experience": 0 }
+      ]
+    }
+  ]
+}

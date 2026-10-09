@@ -21,6 +21,7 @@ export const NAV = [
     ]
   },
   { label: 'Departments', to: '/departments' },
+  { label: 'Faculty', to: '/faculty' },
   { label: 'Students', to: '/students' },
   { label: 'Research', to: '/research' },
   {
