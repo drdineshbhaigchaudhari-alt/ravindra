@@ -29,3 +29,9 @@ Copy `server/.env.example` to `server/.env` to change the port.
 
 ## Placeholders to replace
 Address, phone numbers, emails, leadership names/messages, approvals (UGC/NMC/DCI/INC), seat counts, fees and dates are sample content.
+
+## Deploy on Hostinger (Node.js web app)
+1. hPanel → Websites → Add website → **Node.js Apps** → import from GitHub (`drdineshbhaigchaudhari-alt/ravindra`, branch `main`) or upload a ZIP of the repo (without `node_modules`/`client/dist`).
+2. Settings: Node 20 or 22, **Build command** `npm run build`, **Start command** `npm start`, **Entry file** `server/index.js`, install command `npm install`.
+3. Environment variables: `NODE_ENV=production` (Hostinger supplies `PORT`).
+4. Deploy, then attach the domain `ravindrameduni.com` in the same Node.js app's Domains section and enable SSL.
