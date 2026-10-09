@@ -60,6 +60,37 @@ export function About() {
         </section>
       )}
 
+      {/* Chairperson Speaks */}
+      {p.chairperson && (
+        <section className="section">
+          <div className="container">
+            <Head kicker="Leadership Message" title={p.chairperson.title} />
+            <article className="chairperson-box">
+              <div className="chairperson-profile">
+                <img src={p.chairperson.image} alt={p.chairperson.name} loading="lazy" />
+                <div className="chairperson-meta">
+                  <h3>{p.chairperson.name}</h3>
+                  <span className="badge">{p.chairperson.designation}</span>
+                </div>
+              </div>
+              <div className="chairperson-speech">
+                <blockquote className="chairperson-quote">
+                  “{p.chairperson.quote}”
+                </blockquote>
+                {p.chairperson.paragraphs.map((para, idx) => (
+                  <p key={idx}>{para}</p>
+                ))}
+                <div className="chairperson-sign">
+                  <strong>Warm regards,</strong>
+                  <div>{p.chairperson.name}</div>
+                  <div className="muted">{p.chairperson.designation}</div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      )}
+
       {/* Vision & Mission */}
       {v && (
         <section className="section alt">

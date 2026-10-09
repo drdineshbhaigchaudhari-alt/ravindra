@@ -122,16 +122,15 @@ export default function Home() {
           </div>
           <div>
             <span className="eyebrow">Welcome</span>
-            <h2>Ravindra Medical Research University</h2>
-            <p className="lead">Nurturing physicians, dentists, nurses and biomedical scientists who combine clinical competence with ethical values.</p>
+            <h2>Institute of Pharmaceutical Sciences</h2>
+            <p className="lead">Established in the year 2003 on the campus of Kurukshetra University to offer a four-year B. Pharm, duly approved by AICTE and PCI, New Delhi.</p>
             <p>
-              Our integrated campus in Chandigarh offers modern lecture theatres, simulation labs, research facilities and
-              a vibrant student life. With a competency-based curriculum, mentoring by experienced faculty and a strong
-              research culture, we prepare graduates to serve society with knowledge, skill and compassion.
+              Now the institute has stretched its roots by introducing Ph.D and M. Pharmacy courses in various branches like
+              Pharmaceutics, Pharmaceutical Chemistry, Pharmacology, Pharmacognosy & Phytochemistry and Quality Assurance.
             </p>
             <ul className="ticks two">
-              <li>Competency-based curriculum</li><li>Simulation &amp; skills training</li>
-              <li>Research &amp; innovation focus</li><li>Ethics &amp; professionalism</li>
+              <li>Approved by AICTE &amp; PCI</li><li>B. Pharm, M. Pharm &amp; Ph.D</li>
+              <li>Research &amp; innovation focus</li><li>Experienced faculty &amp; modern labs</li>
             </ul>
             <Link className="btn" to="/about">Discover More</Link>
           </div>

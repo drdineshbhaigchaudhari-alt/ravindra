@@ -317,3 +317,19 @@ a.card:hover { transform: translateY(-4px); color: var(--text); }
   .fac-stats { grid-template-columns: repeat(2, 1fr); }
   .fac-controls, .fac-controls input, .fac-controls select { width: 100%; }
 }
+
+/* ===== Chairperson Speaks ===== */
+.chairperson-box { display: grid; grid-template-columns: 280px 1fr; gap: 36px; background: #fff; border-radius: var(--radius); box-shadow: var(--shadow); padding: 36px; border-top: 4px solid var(--gold); align-items: start; }
+.chairperson-profile { text-align: center; position: sticky; top: 90px; }
+.chairperson-profile img { width: 100%; max-width: 260px; height: 320px; object-fit: cover; object-position: top center; border-radius: var(--radius); box-shadow: 0 4px 16px rgba(11,42,85,.12); margin: 0 auto 16px; display: block; }
+.chairperson-meta h3 { font-size: 1.15rem; margin: 0 0 6px; color: var(--navy); }
+.chairperson-speech { font-size: 1rem; line-height: 1.75; color: var(--text); }
+.chairperson-quote { margin: 0 0 20px; font-family: Merriweather, Georgia, serif; font-size: 1.15rem; color: var(--navy); border-left: 4px solid var(--gold); padding: 10px 16px; background: #fafbfd; border-radius: 0 6px 6px 0; font-style: italic; }
+.chairperson-speech p { margin-bottom: 14px; }
+.chairperson-sign { margin-top: 24px; padding-top: 16px; border-top: 1px dashed var(--line); font-size: .95rem; }
+.chairperson-sign strong { display: block; margin-bottom: 4px; color: var(--navy); }
+@media (max-width: 959px) {
+  .chairperson-box { grid-template-columns: 1fr; gap: 24px; padding: 24px; }
+  .chairperson-profile { position: static; }
+  .chairperson-profile img { max-width: 220px; height: 260px; }
+}

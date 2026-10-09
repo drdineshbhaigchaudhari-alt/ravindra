@@ -1,12 +1,24 @@
 {
   "about": { "title": "About Us", "image": "/images/hero-campus.jpg",
-    "heading": "A University Built on Learning, Healing & Discovery",
+    "heading": "Institute of Pharmaceutical Sciences",
     "paras": [
-    "Ravindra Medical Research University (RMRU) is a centre of excellence dedicated to medical education, biomedical research and community service. The university brings together a broad spectrum of health-science programmes under one academic roof, fostering collaboration between disciplines.",
-    "Our campus offers modern lecture theatres, research laboratories, a simulation skills centre, a digital library and residential facilities, creating an environment where students learn, discover and grow.",
-    "Guided by values of integrity, compassion and scholarship, RMRU aims to produce healthcare professionals and scientists who are competent, ethical and socially responsive."
-  ],
-    "highlights": ["Competency-based curriculum", "Experienced, mentoring faculty", "Simulation & skills training", "Central research laboratory", "Digital library & e-resources", "Safe residential campus"],
+      "Institute of Pharmaceutical Sciences was established in the year 2003 on the campus of Kurukshetra University to offer a four-year B. Pharm. The Institute is duly approved by the All-India Council for Technical Education (AICTE) and Pharmacy Council of India (PCI), New Delhi. Now the institute has stretched its roots by introducing Ph.D and M. Pharmacy courses in various branches like Pharmaceutics, Pharmaceutical Chemistry, Pharmacology, Pharmacognosy & Phytochemistry and Quality Assurance."
+    ],
+    "highlights": ["Approved by AICTE & PCI New Delhi", "Four-Year B. Pharm Programme", "Specialized M. Pharmacy Branches", "Ph.D Research Programmes", "Modern Laboratories & Research Facilities", "Experienced & Dedicated Faculty"],
+    "chairperson": {
+      "title": "Chairperson Speaks",
+      "name": "Dr. Pardeep Kumar Tulani",
+      "designation": "Registrar, RMRU",
+      "quote": "Transforming RMRU into a globally competitive, student-first university through innovation, industry partnerships, and inclusive growth.",
+      "image": "/images/leadership/registrar.jpg",
+      "paragraphs": [
+        "It is with profound honor and a deep sense of responsibility that I welcome you to RAVINDRA MEDICAL RESEARCH UNIVERSITY — a distinguished institution committed to excellence in education, research, innovation, and societal service.",
+        "As Registrar of this esteemed university, I am entrusted with overseeing the academic administration that sustains our mission of delivering quality higher education. The Office of the Registrar serves as a cornerstone of academic integrity, ensuring the accurate maintenance of records, the seamless conduct of examinations, and the effective implementation of policies that support and empower our students, faculty, and staff.",
+        "Education is a process to develop and harness the potentialities of an individual and gives us the confidence to meet the challenges of life with courage. Over the years the field of pharmaceutical sciences has grown with research and development. This profession has a large socio-economic relevance to the Indian economy.",
+        "I am very much delighted to welcome all the career concerned potential youth to the dynamic and vibrant academic world of the Institute of Pharmaceutical Sciences, Kurukshetra University Kurukshetra (IPS, KUK) to experience the environment that emphasizes interaction, innovation, and an interdisciplinary approach to education. The opportunities are wide open to those interested in pursuing quality education in an academically oriented as well as aesthetically ambient premise. The institute environment is aesthetic and knowledge acquisition oriented. Your journey to the technology stream is new.",
+        "I have a team of exceptionally brilliant and qualified faculty with me. Their positive, dynamic, focused, cooperative and result-oriented attitude is our main asset. They will be there whenever you need them. We in the institute contribute to the idea that learning is an unending process. It is not only teaching but also co-curricular and extracurricular activities that shall be provided."
+      ]
+    },
     "values": [
       { "icon": "🏆", "t": "Excellence", "d": "We hold ourselves to the highest standards in teaching, clinical training and research." },
       { "icon": "⚖️", "t": "Integrity", "d": "Honesty, transparency and accountability guide every academic and administrative decision." },
@@ -38,11 +50,10 @@
       { "name": "Sports & Recreation", "image": "/images/students-4.jpg" }
     ]
   },
-  "vision": { "title": "Vision & Mission", "image": "/images/campus-1.jpg", "vision": "To be a globally respected university for medical education and research, transforming health through knowledge, innovation and compassion.", "mission": [
-    "Deliver high-quality, competency-based education in health sciences.",
-    "Promote translational and interdisciplinary biomedical research.",
-    "Instil ethics, professionalism and social responsibility in every graduate.",
-    "Engage with communities to improve health awareness and outcomes."
+  "vision": { "title": "Vision & Mission", "image": "/images/campus-1.jpg", "vision": "To foster excellence in pharmaceutical sciences through innovative education, cutting-edge research, transformative technologies, and developing sustainable, technology-driven solutions that improve global healthcare.", "mission": [
+    "To impart high-quality, multidisciplinary pharmaceutical education through excellence in teaching, experiential learning, and outcome-based academic practices.",
+    "To promote excellence in research and strengthen collaborations with academia, healthcare institutions, research organizations, and the pharmaceutical industry to foster innovation and knowledge exchange.",
+    "To promote a culture of ethical practice, scientific integrity, leadership, and social responsibility while supporting professional learning and sustainable healthcare."
   ] },
   "affiliations": { "title": "Affiliations & Approvals", "items": [
     "Established under the relevant State University Act (placeholder — update with actual details)",
