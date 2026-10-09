@@ -1,0 +1,10 @@
+[
+  { "id": 1, "date": "2026-10-05", "title": "Admission notification for MBBS 2026–27 academic session", "category": "Admission", "file": "/docs/sample.pdf" },
+  { "id": 2, "date": "2026-10-02", "title": "Revised academic calendar for Phase I MBBS", "category": "Academic", "file": "/docs/sample.pdf" },
+  { "id": 3, "date": "2026-09-28", "title": "Fee payment schedule for the second semester", "category": "Fee", "file": "/docs/sample.pdf" },
+  { "id": 4, "date": "2026-09-25", "title": "Constitution of the Institutional Ethics Committee", "category": "Committee", "file": "/docs/sample.pdf" },
+  { "id": 5, "date": "2026-09-20", "title": "Notice: Anti-Ragging undertaking for all new students", "category": "Student", "file": "/docs/sample.pdf" },
+  { "id": 6, "date": "2026-09-15", "title": "Tender notice: Supply of laboratory equipment for Biochemistry", "category": "Tender", "file": "/docs/sample.pdf" },
+  { "id": 7, "date": "2026-09-10", "title": "Schedule of university examinations — Winter 2026", "category": "Examination", "file": "/docs/sample.pdf" },
+  { "id": 8, "date": "2026-09-01", "title": "Call for applications: Research fellowship 2026", "category": "Research", "file": "/docs/sample.pdf" }
+]

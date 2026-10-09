@@ -1,0 +1,58 @@
+{
+  "about": { "title": "About Us", "image": "/images/hero-campus.jpg", "paras": [
+    "Ravindra Medical Research University (RMRU) is a centre of excellence dedicated to medical education, biomedical research and community service. The university brings together a broad spectrum of health-science programmes under one academic roof, fostering collaboration between disciplines.",
+    "Our campus offers modern lecture theatres, research laboratories, a simulation skills centre, a digital library and residential facilities, creating an environment where students learn, discover and grow.",
+    "Guided by values of integrity, compassion and scholarship, RMRU aims to produce healthcare professionals and scientists who are competent, ethical and socially responsive."
+  ] },
+  "vision": { "title": "Vision & Mission", "image": "/images/campus-1.jpg", "vision": "To be a globally respected university for medical education and research, transforming health through knowledge, innovation and compassion.", "mission": [
+    "Deliver high-quality, competency-based education in health sciences.",
+    "Promote translational and interdisciplinary biomedical research.",
+    "Instil ethics, professionalism and social responsibility in every graduate.",
+    "Engage with communities to improve health awareness and outcomes."
+  ] },
+  "affiliations": { "title": "Affiliations & Approvals", "items": [
+    "Established under the relevant State University Act (placeholder — update with actual details)",
+    "Recognised by the University Grants Commission (UGC) — update",
+    "Programmes approved by the National Medical Commission (NMC) — update",
+    "Dental programmes approved by the Dental Council of India — update",
+    "Nursing programmes approved by the Indian Nursing Council — update"
+  ] },
+  "admission": { "title": "Admission", "image": "/images/hero-students.jpg", "steps": [
+    { "t": "Check eligibility", "d": "Review programme-wise eligibility and the qualifying entrance examination." },
+    { "t": "Register online", "d": "Create your profile and fill in the application on the admission portal." },
+    { "t": "Counselling / Merit list", "d": "Participate in counselling or selection as per the notification." },
+    { "t": "Document verification", "d": "Report with original documents for verification." },
+    { "t": "Fee payment & enrolment", "d": "Pay the prescribed fee only after confirmation of your seat." }
+  ], "notice": "No payment is due before provisional allotment and document verification by the university." },
+  "student": { "title": "Student Corner", "items": [
+    { "name": "Library", "image": "/images/library-2.jpg", "desc": "Digital and print collections, e-journals, reading halls open extended hours." },
+    { "name": "Simulation Lab", "image": "/images/skills-lab.jpg", "desc": "Mannequin-based skills training for clinical and procedural competence." },
+    { "name": "Lecture Theatres", "image": "/images/lecture-2.jpg", "desc": "Air-conditioned, audio-visual enabled tiered lecture halls." },
+    { "name": "Hostel & Mess", "image": "/images/campus-3.jpg", "desc": "Secure hostels with hygienic mess, Wi-Fi and recreation spaces." },
+    { "name": "Sports & Recreation", "image": "/images/students-4.jpg", "desc": "Grounds and courts for cricket, football, volleyball, badminton and indoor games." },
+    { "name": "Cafeteria", "image": "/images/students-3.jpg", "desc": "Campus cafeteria serving fresh, affordable meals." }
+  ] },
+  "research": { "title": "Research", "image": "/images/research.jpg", "paras": [
+    "RMRU promotes research that addresses health challenges of the region and the world. The Central Research Laboratory provides shared access to molecular biology, microscopy, cell culture and analytical instruments.",
+    "Students and faculty are supported through seed grants, research methodology training, statistical consultation and an Institutional Ethics Committee."
+  ], "centres": [
+    { "name": "Central Research Laboratory", "image": "/images/lab-1.jpg" },
+    { "name": "Molecular Biology & Genomics", "image": "/images/lab-2.jpg" },
+    { "name": "Histopathology & Imaging", "image": "/images/lab-3.jpg" }
+  ] },
+  "citizen": { "title": "Citizen Charter", "items": [
+    "Provide quality, ethical and inclusive medical education.",
+    "Respond to student and public queries within 7 working days.",
+    "Publish admission, examination and fee information transparently.",
+    "Maintain a ragging-free, harassment-free campus.",
+    "Welcome feedback through the grievance and contact channels."
+  ] },
+  "calendar": { "title": "Academic Calendar 2026–27", "rows": [
+    { "event": "Commencement of new session (UG)", "date": "01 Nov 2026" },
+    { "event": "First internal assessment", "date": "Jan 2027" },
+    { "event": "Winter break", "date": "25 Dec 2026 – 01 Jan 2027" },
+    { "event": "Second internal assessment", "date": "Apr 2027" },
+    { "event": "Summer vacation", "date": "Jun 2027" },
+    { "event": "Annual / University examinations", "date": "Jul 2027" }
+  ] }
+}

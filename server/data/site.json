@@ -1,0 +1,25 @@
+{
+  "name": "Ravindra Medical Research University",
+  "short": "RMRU",
+  "tagline": "Advancing Medical Education, Research & Innovation",
+  "domain": "ravindrameduni.com",
+  "address": "Ravindra Medical Research University, Sector 25, Chandigarh — 160014, India",
+  "phones": ["+91 172 255 0101", "+91 172 255 0102"],
+  "tollFree": "1800-111-0172",
+  "email": "info@ravindrameduni.com",
+  "emails": { "General Enquiries": "info@ravindrameduni.com", "Human Resources": "hr@ravindrameduni.com", "University Office": "university@ravindrameduni.com", "Registrar": "registrar@ravindrameduni.com" },
+  "helplines": { "Anti-Ragging": "1800-111-0173", "Student Support": "1800-111-0174" },
+  "ticker": [
+    "Admissions 2026–27 open for MBBS, BDS, Nursing and Allied Health programmes",
+    "Last date for PG counselling registration: 30 November 2026",
+    "Academic calendar 2026–27 published — see Academics",
+    "Applications invited for faculty positions in multiple departments"
+  ],
+  "stats": [
+    { "value": 25, "suffix": "+", "label": "Departments" },
+    { "value": 8, "suffix": "", "label": "Degree Programmes" },
+    { "value": 400, "suffix": "+", "label": "Faculty Members" },
+    { "value": 60, "suffix": "+", "label": "Research Projects" }
+  ],
+  "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#", "linkedin": "#" }
+}

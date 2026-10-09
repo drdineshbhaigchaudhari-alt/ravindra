@@ -1,0 +1,10 @@
+[
+  { "name": "Anti-Ragging Committee", "desc": "Ensures a ragging-free campus through awareness, monitoring and swift action as per UGC and NMC regulations." },
+  { "name": "Institutional Ethics Committee", "desc": "Reviews research proposals involving human participants to uphold ethical standards." },
+  { "name": "Women Grievance Cell", "desc": "Addresses complaints of harassment and promotes a safe, inclusive environment." },
+  { "name": "Curriculum Committee", "desc": "Plans, monitors and reviews implementation of the competency-based curriculum." },
+  { "name": "Medical Education Unit", "desc": "Faculty development, teaching-learning innovation and assessment training." },
+  { "name": "Student Grievance Redressal Committee", "desc": "Provides a formal channel for resolving academic and administrative concerns." },
+  { "name": "Internal Quality Assurance Cell", "desc": "Drives continuous improvement and accreditation readiness." },
+  { "name": "Research & Publication Committee", "desc": "Supports funding, plagiarism checks and publication quality." }
+]

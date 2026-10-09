@@ -1,0 +1,20 @@
+[
+  { "src": "/images/campus-1.jpg", "caption": "University campus", "cat": "Campus" },
+  { "src": "/images/campus-2.jpg", "caption": "Academic block", "cat": "Campus" },
+  { "src": "/images/campus-3.jpg", "caption": "Green lawns", "cat": "Campus" },
+  { "src": "/images/lecture-1.jpg", "caption": "Interactive lecture", "cat": "Academics" },
+  { "src": "/images/lecture-2.jpg", "caption": "Lecture theatre", "cat": "Academics" },
+  { "src": "/images/lecture-3.jpg", "caption": "Auditorium", "cat": "Campus" },
+  { "src": "/images/lab-1.jpg", "caption": "Research laboratory", "cat": "Research" },
+  { "src": "/images/lab-2.jpg", "caption": "Microscopy lab", "cat": "Research" },
+  { "src": "/images/lab-3.jpg", "caption": "Histology lab", "cat": "Research" },
+  { "src": "/images/research.jpg", "caption": "Biomedical research", "cat": "Research" },
+  { "src": "/images/library-1.jpg", "caption": "Library discussion", "cat": "Campus" },
+  { "src": "/images/library-2.jpg", "caption": "Reading hall", "cat": "Campus" },
+  { "src": "/images/skills-lab.jpg", "caption": "Simulation skills lab", "cat": "Academics" },
+  { "src": "/images/nursing-2.jpg", "caption": "Nursing skills training", "cat": "Academics" },
+  { "src": "/images/convocation-1.jpg", "caption": "Convocation", "cat": "Events" },
+  { "src": "/images/convocation-2.jpg", "caption": "Graduation ceremony", "cat": "Events" },
+  { "src": "/images/convocation-3.jpg", "caption": "Degree conferment", "cat": "Events" },
+  { "src": "/images/students-3.jpg", "caption": "Students", "cat": "Events" }
+]

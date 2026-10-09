@@ -1,0 +1,359 @@
+[
+  {
+    "slug": "anatomy",
+    "name": "Anatomy",
+    "group": "Pre-Clinical",
+    "image": "/images/lab-1.jpg",
+    "overview": "The Department of Anatomy at Ravindra Medical Research University delivers comprehensive undergraduate and postgraduate teaching grounded in the competency-based curriculum. Faculty combine rigorous academic instruction with modern teaching aids, practical sessions and mentored research.",
+    "highlights": [
+      "Experienced, qualified faculty",
+      "Well-equipped practical and demonstration facilities",
+      "Regular seminars, journal clubs and workshops",
+      "Opportunities for student research and publication"
+    ],
+    "programs": [
+      "MBBS",
+      "MD / M.Sc."
+    ]
+  },
+  {
+    "slug": "physiology",
+    "name": "Physiology",
+    "group": "Pre-Clinical",
+    "image": "/images/lab-2.jpg",
+    "overview": "The Department of Physiology at Ravindra Medical Research University delivers comprehensive undergraduate and postgraduate teaching grounded in the competency-based curriculum. Faculty combine rigorous academic instruction with modern teaching aids, practical sessions and mentored research.",
+    "highlights": [
+      "Experienced, qualified faculty",
+      "Well-equipped practical and demonstration facilities",
+      "Regular seminars, journal clubs and workshops",
+      "Opportunities for student research and publication"
+    ],
+    "programs": [
+      "MBBS",
+      "MD / M.Sc."
+    ]
+  },
+  {
+    "slug": "biochemistry",
+    "name": "Biochemistry",
+    "group": "Pre-Clinical",
+    "image": "/images/lab-3.jpg",
+    "overview": "The Department of Biochemistry at Ravindra Medical Research University delivers comprehensive undergraduate and postgraduate teaching grounded in the competency-based curriculum. Faculty combine rigorous academic instruction with modern teaching aids, practical sessions and mentored research.",
+    "highlights": [
+      "Experienced, qualified faculty",
+      "Well-equipped practical and demonstration facilities",
+      "Regular seminars, journal clubs and workshops",
+      "Opportunities for student research and publication"
+    ],
+    "programs": [
+      "MBBS",
+      "MD / M.Sc."
+    ]
+  },
+  {
+    "slug": "pharmacology",
+    "name": "Pharmacology",
+    "group": "Para-Clinical",
+    "image": "/images/research.jpg",
+    "overview": "The Department of Pharmacology at Ravindra Medical Research University delivers comprehensive undergraduate and postgraduate teaching grounded in the competency-based curriculum. Faculty combine rigorous academic instruction with modern teaching aids, practical sessions and mentored research.",
+    "highlights": [
+      "Experienced, qualified faculty",
+      "Well-equipped practical and demonstration facilities",
+      "Regular seminars, journal clubs and workshops",
+      "Opportunities for student research and publication"
+    ],
+    "programs": [
+      "MBBS",
+      "MD / M.Sc."
+    ]
+  },
+  {
+    "slug": "pathology",
+    "name": "Pathology",
+    "group": "Para-Clinical",
+    "image": "/images/lecture-1.jpg",
+    "overview": "The Department of Pathology at Ravindra Medical Research University delivers comprehensive undergraduate and postgraduate teaching grounded in the competency-based curriculum. Faculty combine rigorous academic instruction with modern teaching aids, practical sessions and mentored research.",
+    "highlights": [
+      "Experienced, qualified faculty",
+      "Well-equipped practical and demonstration facilities",
+      "Regular seminars, journal clubs and workshops",
+      "Opportunities for student research and publication"
+    ],
+    "programs": [
+      "MBBS",
+      "MD / M.Sc."
+    ]
+  },
+  {
+    "slug": "microbiology",
+    "name": "Microbiology",
+    "group": "Para-Clinical",
+    "image": "/images/skills-lab.jpg",
+    "overview": "The Department of Microbiology at Ravindra Medical Research University delivers comprehensive undergraduate and postgraduate teaching grounded in the competency-based curriculum. Faculty combine rigorous academic instruction with modern teaching aids, practical sessions and mentored research.",
+    "highlights": [
+      "Experienced, qualified faculty",
+      "Well-equipped practical and demonstration facilities",
+      "Regular seminars, journal clubs and workshops",
+      "Opportunities for student research and publication"
+    ],
+    "programs": [
+      "MBBS",
+      "MD / M.Sc."
+    ]
+  },
+  {
+    "slug": "forensic-medicine-and-toxicology",
+    "name": "Forensic Medicine & Toxicology",
+    "group": "Para-Clinical",
+    "image": "/images/nursing-1.jpg",
+    "overview": "The Department of Forensic Medicine & Toxicology at Ravindra Medical Research University delivers comprehensive undergraduate and postgraduate teaching grounded in the competency-based curriculum. Faculty combine rigorous academic instruction with modern teaching aids, practical sessions and mentored research.",
+    "highlights": [
+      "Experienced, qualified faculty",
+      "Well-equipped practical and demonstration facilities",
+      "Regular seminars, journal clubs and workshops",
+      "Opportunities for student research and publication"
+    ],
+    "programs": [
+      "MBBS",
+      "MD / M.Sc."
+    ]
+  },
+  {
+    "slug": "community-medicine",
+    "name": "Community Medicine",
+    "group": "Para-Clinical",
+    "image": "/images/students-1.jpg",
+    "overview": "The Department of Community Medicine at Ravindra Medical Research University delivers comprehensive undergraduate and postgraduate teaching grounded in the competency-based curriculum. Faculty combine rigorous academic instruction with modern teaching aids, practical sessions and mentored research.",
+    "highlights": [
+      "Experienced, qualified faculty",
+      "Well-equipped practical and demonstration facilities",
+      "Regular seminars, journal clubs and workshops",
+      "Opportunities for student research and publication"
+    ],
+    "programs": [
+      "MBBS",
+      "MD / M.Sc."
+    ]
+  },
+  {
+    "slug": "general-medicine",
+    "name": "General Medicine",
+    "group": "Clinical",
+    "image": "/images/lab-1.jpg",
+    "overview": "The Department of General Medicine at Ravindra Medical Research University delivers comprehensive undergraduate and postgraduate teaching grounded in the competency-based curriculum. Faculty combine rigorous academic instruction with modern teaching aids, practical sessions and mentored research.",
+    "highlights": [
+      "Experienced, qualified faculty",
+      "Well-equipped practical and demonstration facilities",
+      "Regular seminars, journal clubs and workshops",
+      "Opportunities for student research and publication"
+    ],
+    "programs": [
+      "MBBS",
+      "MD / MS"
+    ]
+  },
+  {
+    "slug": "paediatrics",
+    "name": "Paediatrics",
+    "group": "Clinical",
+    "image": "/images/lab-2.jpg",
+    "overview": "The Department of Paediatrics at Ravindra Medical Research University delivers comprehensive undergraduate and postgraduate teaching grounded in the competency-based curriculum. Faculty combine rigorous academic instruction with modern teaching aids, practical sessions and mentored research.",
+    "highlights": [
+      "Experienced, qualified faculty",
+      "Well-equipped practical and demonstration facilities",
+      "Regular seminars, journal clubs and workshops",
+      "Opportunities for student research and publication"
+    ],
+    "programs": [
+      "MBBS",
+      "MD / MS"
+    ]
+  },
+  {
+    "slug": "dermatology",
+    "name": "Dermatology",
+    "group": "Clinical",
+    "image": "/images/lab-3.jpg",
+    "overview": "The Department of Dermatology at Ravindra Medical Research University delivers comprehensive undergraduate and postgraduate teaching grounded in the competency-based curriculum. Faculty combine rigorous academic instruction with modern teaching aids, practical sessions and mentored research.",
+    "highlights": [
+      "Experienced, qualified faculty",
+      "Well-equipped practical and demonstration facilities",
+      "Regular seminars, journal clubs and workshops",
+      "Opportunities for student research and publication"
+    ],
+    "programs": [
+      "MBBS",
+      "MD / MS"
+    ]
+  },
+  {
+    "slug": "psychiatry",
+    "name": "Psychiatry",
+    "group": "Clinical",
+    "image": "/images/research.jpg",
+    "overview": "The Department of Psychiatry at Ravindra Medical Research University delivers comprehensive undergraduate and postgraduate teaching grounded in the competency-based curriculum. Faculty combine rigorous academic instruction with modern teaching aids, practical sessions and mentored research.",
+    "highlights": [
+      "Experienced, qualified faculty",
+      "Well-equipped practical and demonstration facilities",
+      "Regular seminars, journal clubs and workshops",
+      "Opportunities for student research and publication"
+    ],
+    "programs": [
+      "MBBS",
+      "MD / MS"
+    ]
+  },
+  {
+    "slug": "respiratory-medicine",
+    "name": "Respiratory Medicine",
+    "group": "Clinical",
+    "image": "/images/lecture-1.jpg",
+    "overview": "The Department of Respiratory Medicine at Ravindra Medical Research University delivers comprehensive undergraduate and postgraduate teaching grounded in the competency-based curriculum. Faculty combine rigorous academic instruction with modern teaching aids, practical sessions and mentored research.",
+    "highlights": [
+      "Experienced, qualified faculty",
+      "Well-equipped practical and demonstration facilities",
+      "Regular seminars, journal clubs and workshops",
+      "Opportunities for student research and publication"
+    ],
+    "programs": [
+      "MBBS",
+      "MD / MS"
+    ]
+  },
+  {
+    "slug": "general-surgery",
+    "name": "General Surgery",
+    "group": "Clinical",
+    "image": "/images/skills-lab.jpg",
+    "overview": "The Department of General Surgery at Ravindra Medical Research University delivers comprehensive undergraduate and postgraduate teaching grounded in the competency-based curriculum. Faculty combine rigorous academic instruction with modern teaching aids, practical sessions and mentored research.",
+    "highlights": [
+      "Experienced, qualified faculty",
+      "Well-equipped practical and demonstration facilities",
+      "Regular seminars, journal clubs and workshops",
+      "Opportunities for student research and publication"
+    ],
+    "programs": [
+      "MBBS",
+      "MD / MS"
+    ]
+  },
+  {
+    "slug": "orthopaedics",
+    "name": "Orthopaedics",
+    "group": "Clinical",
+    "image": "/images/nursing-1.jpg",
+    "overview": "The Department of Orthopaedics at Ravindra Medical Research University delivers comprehensive undergraduate and postgraduate teaching grounded in the competency-based curriculum. Faculty combine rigorous academic instruction with modern teaching aids, practical sessions and mentored research.",
+    "highlights": [
+      "Experienced, qualified faculty",
+      "Well-equipped practical and demonstration facilities",
+      "Regular seminars, journal clubs and workshops",
+      "Opportunities for student research and publication"
+    ],
+    "programs": [
+      "MBBS",
+      "MD / MS"
+    ]
+  },
+  {
+    "slug": "ent",
+    "name": "ENT",
+    "group": "Clinical",
+    "image": "/images/students-1.jpg",
+    "overview": "The Department of ENT at Ravindra Medical Research University delivers comprehensive undergraduate and postgraduate teaching grounded in the competency-based curriculum. Faculty combine rigorous academic instruction with modern teaching aids, practical sessions and mentored research.",
+    "highlights": [
+      "Experienced, qualified faculty",
+      "Well-equipped practical and demonstration facilities",
+      "Regular seminars, journal clubs and workshops",
+      "Opportunities for student research and publication"
+    ],
+    "programs": [
+      "MBBS",
+      "MD / MS"
+    ]
+  },
+  {
+    "slug": "ophthalmology",
+    "name": "Ophthalmology",
+    "group": "Clinical",
+    "image": "/images/lab-1.jpg",
+    "overview": "The Department of Ophthalmology at Ravindra Medical Research University delivers comprehensive undergraduate and postgraduate teaching grounded in the competency-based curriculum. Faculty combine rigorous academic instruction with modern teaching aids, practical sessions and mentored research.",
+    "highlights": [
+      "Experienced, qualified faculty",
+      "Well-equipped practical and demonstration facilities",
+      "Regular seminars, journal clubs and workshops",
+      "Opportunities for student research and publication"
+    ],
+    "programs": [
+      "MBBS",
+      "MD / MS"
+    ]
+  },
+  {
+    "slug": "obstetrics-and-gynaecology",
+    "name": "Obstetrics & Gynaecology",
+    "group": "Clinical",
+    "image": "/images/lab-2.jpg",
+    "overview": "The Department of Obstetrics & Gynaecology at Ravindra Medical Research University delivers comprehensive undergraduate and postgraduate teaching grounded in the competency-based curriculum. Faculty combine rigorous academic instruction with modern teaching aids, practical sessions and mentored research.",
+    "highlights": [
+      "Experienced, qualified faculty",
+      "Well-equipped practical and demonstration facilities",
+      "Regular seminars, journal clubs and workshops",
+      "Opportunities for student research and publication"
+    ],
+    "programs": [
+      "MBBS",
+      "MD / MS"
+    ]
+  },
+  {
+    "slug": "anaesthesiology",
+    "name": "Anaesthesiology",
+    "group": "Clinical",
+    "image": "/images/lab-3.jpg",
+    "overview": "The Department of Anaesthesiology at Ravindra Medical Research University delivers comprehensive undergraduate and postgraduate teaching grounded in the competency-based curriculum. Faculty combine rigorous academic instruction with modern teaching aids, practical sessions and mentored research.",
+    "highlights": [
+      "Experienced, qualified faculty",
+      "Well-equipped practical and demonstration facilities",
+      "Regular seminars, journal clubs and workshops",
+      "Opportunities for student research and publication"
+    ],
+    "programs": [
+      "MBBS",
+      "MD / MS"
+    ]
+  },
+  {
+    "slug": "radiodiagnosis",
+    "name": "Radiodiagnosis",
+    "group": "Clinical",
+    "image": "/images/research.jpg",
+    "overview": "The Department of Radiodiagnosis at Ravindra Medical Research University delivers comprehensive undergraduate and postgraduate teaching grounded in the competency-based curriculum. Faculty combine rigorous academic instruction with modern teaching aids, practical sessions and mentored research.",
+    "highlights": [
+      "Experienced, qualified faculty",
+      "Well-equipped practical and demonstration facilities",
+      "Regular seminars, journal clubs and workshops",
+      "Opportunities for student research and publication"
+    ],
+    "programs": [
+      "MBBS",
+      "MD / MS"
+    ]
+  },
+  {
+    "slug": "dentistry",
+    "name": "Dentistry",
+    "group": "Clinical",
+    "image": "/images/lecture-1.jpg",
+    "overview": "The Department of Dentistry at Ravindra Medical Research University delivers comprehensive undergraduate and postgraduate teaching grounded in the competency-based curriculum. Faculty combine rigorous academic instruction with modern teaching aids, practical sessions and mentored research.",
+    "highlights": [
+      "Experienced, qualified faculty",
+      "Well-equipped practical and demonstration facilities",
+      "Regular seminars, journal clubs and workshops",
+      "Opportunities for student research and publication"
+    ],
+    "programs": [
+      "MBBS",
+      "MD / MS"
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "ug": [
+    { "title": "MBBS Phase-1", "file": "/docs/sample.pdf" },
+    { "title": "MBBS Phase-2", "file": "/docs/sample.pdf" },
+    { "title": "MBBS Phase-3, 3rd Professional Part-1", "file": "/docs/sample.pdf" },
+    { "title": "MBBS Phase-3, 3rd Professional Part-2", "file": "/docs/sample.pdf" },
+    { "title": "BDS Year 1–4", "file": "/docs/sample.pdf" },
+    { "title": "B.Sc. Nursing Year 1–4", "file": "/docs/sample.pdf" }
+  ],
+  "pg": [
+    { "title": "MD / MS — First Year", "file": "/docs/sample.pdf" },
+    { "title": "MD / MS — Second Year", "file": "/docs/sample.pdf" },
+    { "title": "MD / MS — Third Year", "file": "/docs/sample.pdf" },
+    { "title": "M.Sc. Medical Sciences", "file": "/docs/sample.pdf" }
+  ]
+}

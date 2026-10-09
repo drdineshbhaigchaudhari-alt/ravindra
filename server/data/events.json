@@ -1,0 +1,8 @@
+[
+  { "id": 1, "type": "Academic", "date": "2026-11-12", "title": "National Conference on Medical Education Innovations", "image": "/images/lecture-2.jpg", "summary": "Faculty and experts discuss competency-based curricula, simulation and assessment reform." },
+  { "id": 2, "type": "Academic", "date": "2026-12-03", "title": "Research Methodology Workshop for Postgraduates", "image": "/images/lab-3.jpg", "summary": "Hands-on sessions on study design, biostatistics and scientific writing." },
+  { "id": 3, "type": "Cultural", "date": "2026-12-18", "title": "Annual Cultural Fest — Spandan", "image": "/images/students-3.jpg", "summary": "Three days of music, dance, drama and art by students across all programmes." },
+  { "id": 4, "type": "Sports", "date": "2027-01-15", "title": "Inter-Departmental Sports Meet", "image": "/images/students-4.jpg", "summary": "Track and field, cricket, volleyball, badminton and indoor games." },
+  { "id": 5, "type": "Academic", "date": "2027-02-10", "title": "White Coat Ceremony — Class of 2031", "image": "/images/students-2.jpg", "summary": "Welcoming the new MBBS batch into the medical profession." },
+  { "id": 6, "type": "Academic", "date": "2027-03-22", "title": "Annual Convocation", "image": "/images/convocation-1.jpg", "summary": "Degrees conferred on graduating students; medals and awards presented." }
+]

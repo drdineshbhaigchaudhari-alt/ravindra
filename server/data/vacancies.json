@@ -1,0 +1,8 @@
+[
+  { "post": "Professor", "dept": "Anatomy", "last": "2026-11-30" },
+  { "post": "Associate Professor", "dept": "Biochemistry", "last": "2026-11-30" },
+  { "post": "Assistant Professor", "dept": "Physiology", "last": "2026-11-30" },
+  { "post": "Assistant Professor", "dept": "Community Medicine", "last": "2026-12-15" },
+  { "post": "Research Associate", "dept": "Central Research Laboratory", "last": "2026-12-15" },
+  { "post": "Librarian", "dept": "Central Library", "last": "2026-12-31" }
+]
