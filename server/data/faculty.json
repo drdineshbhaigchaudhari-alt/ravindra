@@ -26,7 +26,7 @@
         { "name": "Dr. Muraleedharan", "designation": "Assistant Professor", "specialization": "Pharm.D.", "joined": "2023-02-27", "experience": 3.5 },
         { "name": "Mr. Ankit Deera", "designation": "Assistant Professor", "specialization": "Pharmaceutical Chemistry", "joined": "2022-08-26", "experience": 3.5 },
         { "name": "Dr. Arjun kola", "designation": "Assistant Professor", "specialization": "Pharmacy Practice", "joined": "2023-09-04", "experience": 2.5 },
-        { "name": "Dr. Jatinder Singh", "designation": "Assistant Professor", "specialization": "Pharmaceutics", "joined": null, "experience": 10.5 },
+        { "name": "Dr. Jatinder Singh", "designation": "Assistant Professor", "specialization": "Pharmacology", "joined": null, "experience": 4 },
         { "name": "Dr. Diksha Kumar", "designation": "Assistant Professor", "specialization": "Pharm.D.", "joined": "2023-07-29", "experience": 3.5 },
         { "name": "Dr. Gaurav Kukra", "designation": "Assistant Professor", "specialization": "Pharm.D.", "joined": "2019-08-01", "experience": 8.5 },
         { "name": "Mr. Guru Sewak deepa", "designation": "Assistant Professor", "specialization": "Pharmacology", "joined": "2023-11-27", "experience": 11.5 },
